@@ -1,23 +1,36 @@
-import './App.css';
+import React from 'react';
+import styles from './app.module.scss';
+import h1logo from './h1-logo.png';
 import logo from './logo.svg';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="logo">
+        <img src={logo} alt="main-logo" />
+
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Features</a>
+            </li>
+            <li>
+              <a href="/">Blog</a>
+            </li>
+          </ul>
+        </nav>
       </header>
+
+      <div>
+        <h1>
+          Your <img src={h1logo} alt="main-logo" /> knowledge assistant
+        </h1>
+        <p>
+          Get ready-to-use answers from all your knowledge and quit manual
+          organization for good.
+        </p>
+        <button type="button">JOIN THE WAITLIST</button>
+      </div>
     </div>
   );
 }
