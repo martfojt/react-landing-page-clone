@@ -17,6 +17,8 @@
 .header{
 background: var(--color-background);
 display: flex;
+  ul{display: flex;
+}
 
 }
 .body{
@@ -40,9 +42,38 @@ h1{
   font-size: 66px;
   font-weight: 500;
   color: #9b9996;
+  background: -webkit-radial-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2{
+  font-size: 48px;
 }
 
 .ailogo{
 width: 215px;
 height: 157px;
+}
+
+.bluebutton{
+  color: #eeece7;
+  background-image: radial-gradient(circle closest-corner,#384794,#5162b7),linear-gradient(#171717,#161616 25%);
+  font-family: Andale mono,sans-serif;
+  font-size: 18px;
+  display: flex;
+  box-shadow: 0 0 30px rgba(113,137,255,.7);
+  border-radius: 16px;
+  align-items: center;
+  padding: 20px 48px;
+  backdrop-filter: blur(34px);
+}
+
+hr{
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(39,41,43,.76) 50%);
+height: 1px;
+width: 1100px;
+border: none;
+
 }

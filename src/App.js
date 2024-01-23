@@ -28,10 +28,12 @@ export default function App() {
           knowledge assistant
         </h1>
         <p>
-          Get ready-to-use answers from all your knowledge and quit manual
-          organization for good.
+          Get ready-to-use answers from all your knowledge <br /> and quit
+          manual organization for good.
         </p>
-        <button type="button">JOIN THE WAITLIST</button>
+        <button className={styles.bluebutton} type="button">
+          JOIN THE WAITLIST
+        </button>
       </div>
       <div>
         <img
@@ -43,17 +45,20 @@ export default function App() {
         />
       </div>
       <div>
-        <p>Loved by professionals from companies such as</p>
+        <p>
+          Loved by professionals from <br />
+          companies such as
+        </p>
       </div>
       <div>logo logo logo logo</div>
       <div>logo logo logo logo</div>
 
       <hr />
       <div>
-        <h1>
+        <h2>
           Remember anything. <br />
           Just ask a question.
-        </h1>
+        </h2>
         <p>
           Gems is the shortcut for all your knowledge. Just summon Gems and ask
           any question.
